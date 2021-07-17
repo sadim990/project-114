@@ -1,0 +1,15 @@
+.heading{
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 7px 7px 7px black;}
+    to{box-shadow: 6px 6px 6px blue;}
+}
